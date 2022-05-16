@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Master Chief</h1>
+    <!-- This is how we bring in a photo that is saved to our folder-->
+    <img src="Images/MasterChief.jpg" alt="MasterChief" width="500">
+    <h2>About</h2>
+    <p>Master Chief Petty Officer John-117, or "Master Chief", is a fictional character and the protagonist in the Halo multimedia franchise. The Master Chief is a towering supersoldier known as a "Spartan", raised and trained from childhood for combat. He is almost faceless and rarely seen without his green-colored armor and helmet. He is commonly referred to by his naval rank rather than his given birth name.</p>
+    <p>The character is voiced by Steve Downes, a former Chicago disc jockey, in the video games in which he appears, while in alternate media outside the Halo games, most notably the live-action Halo TV series, he is portrayed by Pablo Schreiber. Downes based his personification of the Chief on an initial character sketch, which called for a Clint Eastwood–type character of few words. With each new appearance, the character's visual design underwent revamping or updates.</p>
+    <h2>Favorite Things</h2>
+    <ul>
+        <li>Killing</li>
+        <li>Baking</li>
+        <li>Clean Visor</li>
+        <li>Rocket Jumping</li>
+        <li>Plasma Grenades</li>
+    </ul>
+    <h2>All apperances</h2>
+    <table>
+        <style>
+            table, th, td {
+              border: 2px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td> Halo: Combat Evolved</td>
+            <td> 2004</td>
+        </tr>
+        <tr>
+            <td> Halo</td>
+            <td> 2005</td>
+        </tr>
+        <tr>
+            <td> Halo 2</td>
+            <td> 2006</td>
+        </tr>
+    </table>
+    <h2>Contact me</h2>
+    <form action="#">
+        <div>
+            <label>Your name:</label>
+            <input for="text" name="Name" id="Name">
+        </div>
+        <br>
+        <div>
+            <label>Date of Birth</label>
+            <input type="date" name="DoB">
+        </div>
+        <br>
+        <div>
+            <label for="FavoriteApperance">What was your favorite apperance of mine?</label>
+        <select name="FavoriteApperance">
+            <option value="" Selected disabled>Select an option <option>
+            <option value="Halo Combat Evolved">Halo Combat Evolved</option>
+            <option value="Halo">Halo</option>
+            <option value="Halo 2">Halo 2</option>
+            </select>
+        </div>
+        <div>
+          <p> Do you trust robots? </p>
+            <input type="radio" name="robots">
+            <label for="yes">Yes</label>
+            <input type="radio" name="robots">
+            <label for="No">No</label>
+            <input type="radio" name="robots">
+            <label for="Maybe">Maybe</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
